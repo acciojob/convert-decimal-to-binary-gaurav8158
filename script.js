@@ -4,7 +4,7 @@ let sum = "";
 while(num>0){
 let rem=num%2;
 sum=rem+sum;
-num=Math. floor(num/2);
+num=Math.floor(num/2);
 
 }
 return sum;
